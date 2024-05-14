@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BallShooter</title>
+		<link rel="stylesheet" href="index.css" />
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+			integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="game.js" defer></script>
+	</head>
+	<body>
+		<p class="score">
+			<span>Score:</span>
+			<span id="score">0</span>
+		</p>
+
+		<div id="start">
+			<div>
+				<h1>0</h1>
+				<p>points</p>
+			</div>
+			<div>
+				<button id="startButton">Start Game</button>
+			</div>
+		</div>
+		<canvas></canvas>
+	</body>
+</html>
